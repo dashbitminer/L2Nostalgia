@@ -1,0 +1,38 @@
+******cambiar la ip en el el archivo
+C:\Users\talen\OneDrive\Documentos\GitHub\L2Nostalgia\gameserver\config\network
+
+ósea
+...\L2Nostalgia\gameserver\config\network
+
+# Configure your external ip (aqui va la del servidor osea la publica del primer nostalgia era 37.27.85.113)
+ExternalHostname = 37.27.85.113
+
+
+también en
+
+C:\Users\talen\OneDrive\Documentos\GitHub\L2Nostalgia\loginserver\config\network
+
+ósea
+...\L2Nostalgia\loginserver\config\network
+
+# This is transmitted to the clients connecting from an external network, so it has to be a public IP or resolvable hostname
+#del primer nostalgia era 37.27.85.113
+ExternalHostname = 37.27.85.113
+
+
+
+crear cuenta en phpmyadmin localhost con usuario y contraseña:
+rootRomeo
+f[NCWK.T]Z-_HAbb
+
+instalar JAVA
+Instalar Navicate
+crear base de datos que se llame l2jdb
+Ejecutar el archivo sql de l2nostalgia
+poner l2web en htdocs
+
+recorda los puertos para abrir son
+LoginserverPort = 2106
+para que se conecte el cliente port 7777
+
+en firewall del server y de windows
