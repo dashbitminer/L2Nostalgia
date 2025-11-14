@@ -1,0 +1,904 @@
+12:30:14,919  INFO GameServerTable:94 - Loaded 127 server names
+12:30:14,934  INFO MLog:80 - MLog clients using log4j logging.
+12:30:15,066  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:30:15,272  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64msud81ddvvl3|2aae9190, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64msud81ddvvl3|2aae9190, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:30:15,304  INFO GameServerTable:97 - Loaded 0 registered Game Servers
+12:30:15,435  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:30:15,435  INFO GameServerRegister:62 - Welcome to L2JFrozen GameServer Regitering
+12:30:15,435  INFO GameServerRegister:63 - Enter The id of the server you want to register
+12:30:15,435  INFO GameServerRegister:64 - Type 'help' to get a list of ids.
+12:30:15,435  INFO GameServerRegister:65 - Type 'clean' to unregister all currently registered gameservers on this LoginServer.
+12:30:15,435  INFO GameServerRegister:68 - Your choice:
+12:31:04,037  INFO GameServerRegister:130 - Server Registered hexid saved to 'hexid.txt'
+12:31:04,037  INFO GameServerRegister:131 - Put this file in the /config folder of your gameserver.
+12:40:27,580  INFO Util:141 - ======================================================================-[ Team ]
+12:40:27,580  INFO L2Frozen:35 -                                                                             
+12:40:27,580  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+12:40:27,580  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+12:40:27,596  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+12:40:27,596  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+12:40:27,596  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+12:40:27,596  INFO L2Frozen:41 -                                                                             
+12:40:27,611  INFO Util:141 - ==================================================================-[ Database ]
+12:40:27,627  INFO MLog:80 - MLog clients using log4j logging.
+12:40:27,727  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:40:27,928  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64n5z4a1g0bm67|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64n5z4a1g0bm67|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:40:27,943  INFO Util:141 - ===========================================================-[ LoginController ]
+12:40:28,281  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+12:40:28,629  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+12:40:28,645  INFO GameServerTable:94 - Loaded 127 server names
+12:40:28,645  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+12:40:28,714  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:40:28,729  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+12:40:28,729  INFO L2LoginServer:229 - Login Server ready on *:2106
+12:40:28,729  INFO Config:4457 - Loaded 2 IP Bans.
+12:44:47,272  INFO Util:141 - ======================================================================-[ Team ]
+12:44:47,272  INFO L2Frozen:35 -                                                                             
+12:44:47,272  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+12:44:47,272  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+12:44:47,287  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+12:44:47,287  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+12:44:47,287  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+12:44:47,287  INFO L2Frozen:41 -                                                                             
+12:44:47,303  INFO Util:141 - ==================================================================-[ Database ]
+12:44:47,319  INFO MLog:80 - MLog clients using log4j logging.
+12:44:47,412  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:44:47,615  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64nbjhi10ory9h|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64nbjhi10ory9h|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:44:47,631  INFO Util:141 - ===========================================================-[ LoginController ]
+12:44:47,959  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+12:44:48,101  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+12:44:48,116  INFO GameServerTable:94 - Loaded 127 server names
+12:44:48,116  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+12:44:48,179  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:44:48,195  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+12:44:48,195  INFO L2LoginServer:229 - Login Server ready on *:2106
+12:44:48,195  INFO Config:4457 - Loaded 2 IP Bans.
+12:46:06,002  INFO Util:141 - ======================================================================-[ Team ]
+12:46:06,002  INFO L2Frozen:35 -                                                                             
+12:46:06,002  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+12:46:06,002  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+12:46:06,002  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+12:46:06,002  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+12:46:06,002  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+12:46:06,002  INFO L2Frozen:41 -                                                                             
+12:46:06,064  INFO Util:141 - ==================================================================-[ Database ]
+12:46:06,080  INFO MLog:80 - MLog clients using log4j logging.
+12:46:06,189  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:46:06,439  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64nd89r1ktomf0|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64nd89r1ktomf0|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:46:06,455  INFO Util:141 - ===========================================================-[ LoginController ]
+12:46:06,799  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+12:46:07,252  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+12:46:07,268  INFO GameServerTable:94 - Loaded 127 server names
+12:46:07,268  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+12:46:07,346  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:46:07,393  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+12:46:07,393  INFO L2LoginServer:229 - Login Server ready on *:2106
+12:46:07,393  INFO Config:4457 - Loaded 2 IP Bans.
+13:03:16,950  INFO Util:141 - ======================================================================-[ Team ]
+13:03:16,952  INFO L2Frozen:35 -                                                                             
+13:03:16,952  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:03:16,952  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:03:16,953  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:03:16,953  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:03:16,954  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:03:16,954  INFO L2Frozen:41 -                                                                             
+13:03:16,986  INFO Util:141 - ==================================================================-[ Database ]
+13:03:17,003  INFO MLog:80 - MLog clients using log4j logging.
+13:03:17,115  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:03:17,334  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64nzbqh35vojb|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64nzbqh35vojb|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+13:03:17,346  INFO Util:141 - ===========================================================-[ LoginController ]
+13:03:17,760  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+13:03:17,983  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+13:03:17,991  INFO GameServerTable:94 - Loaded 127 server names
+13:03:17,998  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+13:03:18,135  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+13:03:18,166  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+13:03:18,167  INFO L2LoginServer:229 - Login Server ready on *:2106
+13:03:18,167  INFO Config:4457 - Loaded 2 IP Bans.
+13:03:19,860  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+13:03:19,860  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+13:03:19,861  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+13:08:38,992  INFO Util:141 - ======================================================================-[ Team ]
+13:08:38,992  INFO L2Frozen:35 -                                                                             
+13:08:38,992  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:08:38,992  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:08:38,992  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:08:38,992  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:08:38,992  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:08:38,992  INFO L2Frozen:41 -                                                                             
+13:08:39,038  INFO Util:141 - ==================================================================-[ Database ]
+13:08:39,054  INFO MLog:80 - MLog clients using log4j logging.
+13:08:39,163  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:08:43,319  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ java.beans.IntrospectionException: java.lang.reflect.InvocationTargetException [numThreadsAwaitingCheckoutDefaultUser] ]
+13:08:47,386 ERROR L2DatabaseFactory_c3p0:102 - Couldn't init DB connection, im dead x.x
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:346)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:119)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.initializeAutomaticTestTable(C3P0PooledConnectionPoolManager.java:772)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.createPooledConnectionPool(C3P0PooledConnectionPoolManager.java:696)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:257)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:271)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.l2jfrozen.util.database.L2DatabaseFactory_c3p0.<init>(L2DatabaseFactory_c3p0.java:90)
+	at com.l2jfrozen.util.database.L2DatabaseFactory.getInstance(L2DatabaseFactory.java:59)
+	at com.l2jfrozen.loginserver.L2LoginServer.<init>(L2LoginServer.java:132)
+	at com.l2jfrozen.loginserver.L2LoginServer.main(L2LoginServer.java:61)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:295)
+	... 24 more
+13:08:51,537  INFO Util:141 - ======================================================================-[ Team ]
+13:08:51,537  INFO L2Frozen:35 -                                                                             
+13:08:51,537  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:08:51,537  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:08:51,537  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:08:51,537  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:08:51,537  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:08:51,537  INFO L2Frozen:41 -                                                                             
+13:08:51,569  INFO Util:141 - ==================================================================-[ Database ]
+13:08:51,585  INFO MLog:80 - MLog clients using log4j logging.
+13:08:51,679  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:08:55,839  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ java.beans.IntrospectionException: java.lang.reflect.InvocationTargetException [numThreadsAwaitingCheckoutDefaultUser] ]
+13:08:59,934 ERROR L2DatabaseFactory_c3p0:102 - Couldn't init DB connection, im dead x.x
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:346)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:119)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.initializeAutomaticTestTable(C3P0PooledConnectionPoolManager.java:772)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.createPooledConnectionPool(C3P0PooledConnectionPoolManager.java:696)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:257)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:271)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.l2jfrozen.util.database.L2DatabaseFactory_c3p0.<init>(L2DatabaseFactory_c3p0.java:90)
+	at com.l2jfrozen.util.database.L2DatabaseFactory.getInstance(L2DatabaseFactory.java:59)
+	at com.l2jfrozen.loginserver.L2LoginServer.<init>(L2LoginServer.java:132)
+	at com.l2jfrozen.loginserver.L2LoginServer.main(L2LoginServer.java:61)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:295)
+	... 24 more
+13:09:04,085  INFO Util:141 - ======================================================================-[ Team ]
+13:09:04,085  INFO L2Frozen:35 -                                                                             
+13:09:04,085  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:09:04,085  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:09:04,085  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:09:04,085  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:09:04,085  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:09:04,085  INFO L2Frozen:41 -                                                                             
+13:09:04,116  INFO Util:141 - ==================================================================-[ Database ]
+13:09:04,132  INFO MLog:80 - MLog clients using log4j logging.
+13:09:04,225  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:09:06,539  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y2b64o6rkjh2h063|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y2b64o6rkjh2h063|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+13:09:06,539  INFO Util:141 - ===========================================================-[ LoginController ]
+13:09:06,931  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+13:09:07,400  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+13:09:07,415  INFO GameServerTable:94 - Loaded 127 server names
+13:09:07,415  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+13:09:07,478  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+13:09:07,525  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+13:09:07,525  INFO L2LoginServer:229 - Login Server ready on *:2106
+13:09:07,525  INFO Config:4457 - Loaded 2 IP Bans.
+13:09:30,475  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+13:09:30,475  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+13:09:30,476  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+13:10:24,988  INFO LoginController:712 - Created new account : admin214 on IP : 127.0.0.1
+13:46:33,767  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+13:46:33,767  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+19:19:57,300  INFO Util:141 - ======================================================================-[ Team ]
+19:19:57,300  INFO L2Frozen:35 -                                                                             
+19:19:57,300  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+19:19:57,300  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+19:19:57,300  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+19:19:57,300  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+19:19:57,300  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+19:19:57,300  INFO L2Frozen:41 -                                                                             
+19:19:57,347  INFO Util:141 - ==================================================================-[ Database ]
+19:19:57,362  INFO MLog:80 - MLog clients using log4j logging.
+19:19:57,503  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+19:19:57,706  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2xzb651fqa93y5jba|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2xzb651fqa93y5jba|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+19:19:57,721  INFO Util:141 - ===========================================================-[ LoginController ]
+19:19:58,003  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+19:19:58,332  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+19:19:58,332  INFO GameServerTable:94 - Loaded 127 server names
+19:19:58,347  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+19:19:58,394  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+19:19:58,426  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+19:19:58,426  INFO L2LoginServer:229 - Login Server ready on *:2106
+19:19:58,426  INFO Config:4457 - Loaded 2 IP Bans.
+19:20:15,178  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+19:20:15,178  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+19:20:15,178  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+19:49:43,487  INFO LoginController:712 - Created new account : romeo456 on IP : 127.0.0.1
+19:52:26,753  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+19:52:26,753  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+19:52:38,374  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+20:02:01,753  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:02:01,753  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+20:04:01,989  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+20:09:13,943  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:09:13,943  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+20:09:25,860  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+20:12:37,111  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:12:37,111  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+20:15:21,079  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+22:37:26,868  INFO LoginController:712 - Created new account : romeo789 on IP : 127.0.0.1
+00:55:26,386  INFO LoginController:712 - Created new account : romeo123 on IP : 127.0.0.1
+02:01:21,349  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+02:01:21,349  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+13:09:37,892  INFO Util:141 - ======================================================================-[ Team ]
+13:09:37,892  INFO L2Frozen:35 -                                                                             
+13:09:37,892  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:09:37,892  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:09:37,892  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:09:37,892  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:09:37,892  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:09:37,892  INFO L2Frozen:41 -                                                                             
+13:09:37,939  INFO Util:141 - ==================================================================-[ Database ]
+13:09:37,945  INFO MLog:80 - MLog clients using log4j logging.
+13:09:38,062  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:09:38,261  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2xzb663ncc91vxjlmr|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2xzb663ncc91vxjlmr|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+13:09:38,277  INFO Util:141 - ===========================================================-[ LoginController ]
+13:09:38,609  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+13:09:38,948  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+13:09:38,948  INFO GameServerTable:94 - Loaded 127 server names
+13:09:38,963  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+13:09:39,026  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+13:09:39,064  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+13:09:39,064  INFO L2LoginServer:229 - Login Server ready on *:2106
+13:09:39,064  INFO Config:4457 - Loaded 2 IP Bans.
+13:09:54,735  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+13:09:54,735  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+13:09:54,735  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+13:56:15,719  INFO Util:141 - ======================================================================-[ Team ]
+13:56:15,719  INFO L2Frozen:35 -                                                                             
+13:56:15,719  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+13:56:15,719  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+13:56:15,719  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+13:56:15,719  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+13:56:15,719  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+13:56:15,719  INFO L2Frozen:41 -                                                                             
+13:56:15,741  INFO Util:141 - ==================================================================-[ Database ]
+13:56:15,756  INFO MLog:80 - MLog clients using log4j logging.
+13:56:15,857  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+13:56:16,058  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2xzb665bb58oe32e5|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2xzb665bb58oe32e5|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+13:56:16,073  INFO Util:141 - ===========================================================-[ LoginController ]
+13:56:16,404  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+13:56:16,548  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+13:56:16,548  INFO GameServerTable:94 - Loaded 127 server names
+13:56:16,548  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+13:56:16,611  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+13:56:16,633  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+13:56:16,633  INFO L2LoginServer:229 - Login Server ready on *:2106
+13:56:16,633  INFO Config:4457 - Loaded 2 IP Bans.
+13:56:28,501  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+13:56:28,501  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+13:56:28,501  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+17:19:15,760  INFO Util:141 - ======================================================================-[ Team ]
+17:19:15,760  INFO L2Frozen:35 -                                                                             
+17:19:15,760  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:19:15,760  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:19:15,760  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:19:15,760  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:19:15,760  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:19:15,760  INFO L2Frozen:41 -                                                                             
+17:19:15,791  INFO Util:141 - ==================================================================-[ Database ]
+17:19:15,807  INFO MLog:80 - MLog clients using log4j logging.
+17:19:15,916  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:19:16,150  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ckdby8bmou1|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ckdby8bmou1|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:19:16,166  INFO Util:141 - ===========================================================-[ LoginController ]
+17:19:16,511  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:19:16,839  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:19:16,839  INFO GameServerTable:94 - Loaded 127 server names
+17:19:16,839  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:19:16,917  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:19:16,933  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+17:19:16,933  INFO L2LoginServer:229 - Login Server ready on *:2106
+17:19:16,948  INFO Config:4457 - Loaded 2 IP Bans.
+17:19:33,077  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+17:19:33,077  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+17:19:33,077  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+17:26:10,186  INFO Util:141 - ======================================================================-[ Team ]
+17:26:10,187  INFO L2Frozen:35 -                                                                             
+17:26:10,187  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:10,187  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:10,189  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:10,189  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:10,189  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:10,189  INFO L2Frozen:41 -                                                                             
+17:26:10,221  INFO Util:141 - ==================================================================-[ Database ]
+17:26:10,234  INFO MLog:80 - MLog clients using log4j logging.
+17:26:10,343  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:10,542  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ct93v1k7gnqe|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ct93v1k7gnqe|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:10,553  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:10,858  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:11,129  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:11,136  INFO GameServerTable:94 - Loaded 127 server names
+17:26:11,142  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:11,207  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:11,227 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:15,464  INFO Util:141 - ======================================================================-[ Team ]
+17:26:15,467  INFO L2Frozen:35 -                                                                             
+17:26:15,467  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:15,467  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:15,469  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:15,469  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:15,469  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:15,469  INFO L2Frozen:41 -                                                                             
+17:26:15,497  INFO Util:141 - ==================================================================-[ Database ]
+17:26:15,513  INFO MLog:80 - MLog clients using log4j logging.
+17:26:15,666  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:15,967  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ctd6wz8zmw0|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ctd6wz8zmw0|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:15,978  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:16,396  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:16,592  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:16,602  INFO GameServerTable:94 - Loaded 127 server names
+17:26:16,608  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:16,704  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:16,720 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:20,966  INFO Util:141 - ======================================================================-[ Team ]
+17:26:20,969  INFO L2Frozen:35 -                                                                             
+17:26:20,969  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:20,969  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:20,971  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:20,971  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:20,972  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:20,972  INFO L2Frozen:41 -                                                                             
+17:26:21,006  INFO Util:141 - ==================================================================-[ Database ]
+17:26:21,026  INFO MLog:80 - MLog clients using log4j logging.
+17:26:21,157  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:21,409  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66cthfpvyp0oy|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66cthfpvyp0oy|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:21,421  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:21,908  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:22,071  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:22,079  INFO GameServerTable:94 - Loaded 127 server names
+17:26:22,083  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:22,144  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:22,162 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:25,548  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+17:26:26,373  INFO Util:141 - ======================================================================-[ Team ]
+17:26:26,375  INFO L2Frozen:35 -                                                                             
+17:26:26,375  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:26,375  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:26,376  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:26,376  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:26,377  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:26,377  INFO L2Frozen:41 -                                                                             
+17:26:26,402  INFO Util:141 - ==================================================================-[ Database ]
+17:26:26,416  INFO MLog:80 - MLog clients using log4j logging.
+17:26:26,518  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:26,714  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ctll17iukl|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ctll17iukl|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:26,725  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:27,032  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:27,174  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:27,181  INFO GameServerTable:94 - Loaded 127 server names
+17:26:27,186  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:27,268  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:27,285 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:31,461  INFO Util:141 - ======================================================================-[ Team ]
+17:26:31,463  INFO L2Frozen:35 -                                                                             
+17:26:31,463  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:31,464  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:31,465  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:31,465  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:31,465  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:31,465  INFO L2Frozen:41 -                                                                             
+17:26:31,490  INFO Util:141 - ==================================================================-[ Database ]
+17:26:31,501  INFO MLog:80 - MLog clients using log4j logging.
+17:26:31,599  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:31,793  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ctpibdlfpcg|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ctpibdlfpcg|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:31,803  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:32,102  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:32,249  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:32,255  INFO GameServerTable:94 - Loaded 127 server names
+17:26:32,259  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:32,314  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:32,329 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:36,524  INFO Util:141 - ======================================================================-[ Team ]
+17:26:36,526  INFO L2Frozen:35 -                                                                             
+17:26:36,526  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:36,526  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:36,527  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:36,527  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:36,527  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:36,527  INFO L2Frozen:41 -                                                                             
+17:26:36,553  INFO Util:141 - ==================================================================-[ Database ]
+17:26:36,566  INFO MLog:80 - MLog clients using log4j logging.
+17:26:36,665  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:36,861  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66cttf0wuooub|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66cttf0wuooub|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:36,872  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:37,214  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:37,352  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:37,359  INFO GameServerTable:94 - Loaded 127 server names
+17:26:37,363  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:37,423  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:37,440 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:41,622  INFO Util:141 - ======================================================================-[ Team ]
+17:26:41,624  INFO L2Frozen:35 -                                                                             
+17:26:41,624  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:41,625  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:41,626  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:41,626  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:41,626  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:41,626  INFO L2Frozen:41 -                                                                             
+17:26:41,652  INFO Util:141 - ==================================================================-[ Database ]
+17:26:41,663  INFO MLog:80 - MLog clients using log4j logging.
+17:26:41,760  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:41,956  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66ctxck19mizbz|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66ctxck19mizbz|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:41,965  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:42,238  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:42,379  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:42,386  INFO GameServerTable:94 - Loaded 127 server names
+17:26:42,390  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:42,452  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:42,468 FATAL L2LoginServer:221 - Failed to start the Game Server Listenerjava.net.BindException: Address already in use: JVM_Bind
+17:26:46,664  INFO Util:141 - ======================================================================-[ Team ]
+17:26:46,665  INFO L2Frozen:35 -                                                                             
+17:26:46,665  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:46,666  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:46,668  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:46,668  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:46,668  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:46,668  INFO L2Frozen:41 -                                                                             
+17:26:46,694  INFO Util:141 - ==================================================================-[ Database ]
+17:26:46,707  INFO MLog:80 - MLog clients using log4j logging.
+17:26:46,807  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:51,028  INFO Util:141 - ======================================================================-[ Team ]
+17:26:51,028  INFO L2Frozen:35 -                                                                             
+17:26:51,028  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:26:51,028  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:26:51,028  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:26:51,028  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:26:51,028  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:26:51,028  INFO L2Frozen:41 -                                                                             
+17:26:51,059  INFO Util:141 - ==================================================================-[ Database ]
+17:26:51,075  INFO MLog:80 - MLog clients using log4j logging.
+17:26:51,169  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:26:51,372  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b66cu4lv112ava|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b66cu4lv112ava|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:26:51,387  INFO Util:141 - ===========================================================-[ LoginController ]
+17:26:51,685  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:26:51,826  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:26:51,842  INFO GameServerTable:94 - Loaded 127 server names
+17:26:51,842  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:26:51,888  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:26:51,904  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+17:26:51,904  INFO L2LoginServer:229 - Login Server ready on *:2106
+17:26:51,904  INFO Config:4457 - Loaded 2 IP Bans.
+17:27:02,360  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+17:27:02,360  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+17:27:02,361  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+00:33:06,068  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:33:06,068  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+12:54:17,322  INFO Util:141 - ======================================================================-[ Team ]
+12:54:17,322  INFO L2Frozen:35 -                                                                             
+12:54:17,322  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+12:54:17,322  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+12:54:17,322  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+12:54:17,322  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+12:54:17,322  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+12:54:17,322  INFO L2Frozen:41 -                                                                             
+12:54:17,353  INFO Util:141 - ==================================================================-[ Database ]
+12:54:17,369  INFO MLog:80 - MLog clients using log4j logging.
+12:54:17,478  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:54:17,681  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b67ijgoo3ldlum|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b67ijgoo3ldlum|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:54:17,697  INFO Util:141 - ===========================================================-[ LoginController ]
+12:54:18,040  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+12:54:18,369  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+12:54:18,369  INFO GameServerTable:94 - Loaded 127 server names
+12:54:18,385  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+12:54:18,448  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:54:18,479  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+12:54:18,479  INFO L2LoginServer:229 - Login Server ready on *:2106
+12:54:18,479  INFO Config:4457 - Loaded 2 IP Bans.
+12:54:34,336  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+12:54:34,337  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+12:54:34,337  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+13:04:08,015  WARN LoginController:769 - Could not check password:java.sql.SQLException: Field 'segredo' doesn't have a default value
+13:34:50,182  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+13:34:50,182  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+13:35:06,408  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+19:46:06,079  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+19:46:06,079  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+19:47:49,935  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+19:49:13,862  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+19:49:13,862  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+19:49:41,654  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+20:04:45,124  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:04:45,124  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+21:58:45,745  INFO Util:141 - ======================================================================-[ Team ]
+21:58:45,745  INFO L2Frozen:35 -                                                                             
+21:58:45,745  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+21:58:45,745  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+21:58:45,745  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+21:58:45,745  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+21:58:45,745  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+21:58:45,745  INFO L2Frozen:41 -                                                                             
+21:58:45,776  INFO Util:141 - ==================================================================-[ Database ]
+21:58:45,807  INFO MLog:80 - MLog clients using log4j logging.
+21:58:45,948  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+21:58:46,183  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b681zntb1014d5z|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b681zntb1014d5z|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+21:58:46,198  INFO Util:141 - ===========================================================-[ LoginController ]
+21:58:46,496  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+21:58:46,699  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+21:58:46,699  INFO GameServerTable:94 - Loaded 127 server names
+21:58:46,715  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+21:58:46,761  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+21:58:46,793  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+21:58:46,793  INFO L2LoginServer:229 - Login Server ready on *:2106
+21:58:46,808  INFO Config:4457 - Loaded 2 IP Bans.
+21:58:57,798  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+21:58:57,798  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+21:58:57,798  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+01:50:15,806  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+01:50:15,806  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+21:05:00,896  INFO Util:141 - ======================================================================-[ Team ]
+21:05:00,896  INFO L2Frozen:35 -                                                                             
+21:05:00,896  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+21:05:00,896  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+21:05:00,896  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+21:05:00,896  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+21:05:00,896  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+21:05:00,896  INFO L2Frozen:41 -                                                                             
+21:05:00,927  INFO Util:141 - ==================================================================-[ Database ]
+21:05:00,943  INFO MLog:80 - MLog clients using log4j logging.
+21:05:01,036  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+21:05:17,955  INFO Util:141 - ======================================================================-[ Team ]
+21:05:17,955  INFO L2Frozen:35 -                                                                             
+21:05:17,955  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+21:05:17,955  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+21:05:17,955  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+21:05:17,955  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+21:05:17,955  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+21:05:17,955  INFO L2Frozen:41 -                                                                             
+21:05:17,987  INFO Util:141 - ==================================================================-[ Database ]
+21:05:17,987  INFO MLog:80 - MLog clients using log4j logging.
+21:05:18,096  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+21:05:18,316  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b69firb66itwub|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b69firb66itwub|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+21:05:18,331  INFO Util:141 - ===========================================================-[ LoginController ]
+21:05:18,612  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+21:05:18,800  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+21:05:18,800  INFO GameServerTable:94 - Loaded 127 server names
+21:05:18,816  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+21:05:18,878  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+21:05:18,894  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+21:05:18,894  INFO L2LoginServer:229 - Login Server ready on *:2106
+21:05:18,894  INFO Config:4457 - Loaded 2 IP Bans.
+21:05:32,751  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+21:05:32,751  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+21:05:32,752  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+23:53:33,133  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+23:53:33,133  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+12:10:13,824  INFO Util:141 - ======================================================================-[ Team ]
+12:10:13,824  INFO L2Frozen:35 -                                                                             
+12:10:13,824  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+12:10:13,824  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+12:10:13,824  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+12:10:13,824  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+12:10:13,824  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+12:10:13,824  INFO L2Frozen:41 -                                                                             
+12:10:13,855  INFO Util:141 - ==================================================================-[ Database ]
+12:10:13,871  INFO MLog:80 - MLog clients using log4j logging.
+12:10:13,980  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:10:14,203  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b6abuiamwih39|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b6abuiamwih39|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:10:14,203  INFO Util:141 - ===========================================================-[ LoginController ]
+12:10:14,563  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+12:10:14,875  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+12:10:14,891  INFO GameServerTable:94 - Loaded 127 server names
+12:10:14,906  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+12:10:14,969  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+12:10:15,000  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+12:10:15,000  INFO L2LoginServer:229 - Login Server ready on *:2106
+12:10:15,000  INFO Config:4457 - Loaded 2 IP Bans.
+12:10:30,965  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+12:10:30,966  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+12:10:30,966  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+14:20:35,521  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+14:20:35,521  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+17:40:39,699  INFO Util:141 - ======================================================================-[ Team ]
+17:40:39,699  INFO L2Frozen:35 -                                                                             
+17:40:39,699  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:40:39,699  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:40:39,699  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:40:39,699  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:40:39,699  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:40:39,699  INFO L2Frozen:41 -                                                                             
+17:40:39,730  INFO Util:141 - ==================================================================-[ Database ]
+17:40:39,745  INFO MLog:80 - MLog clients using log4j logging.
+17:40:39,902  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:40:40,137  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b6anng1c1uqg6d9|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b6anng1c1uqg6d9|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:40:40,153  INFO Util:141 - ===========================================================-[ LoginController ]
+17:40:40,544  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:40:40,887  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:40:40,903  INFO GameServerTable:94 - Loaded 127 server names
+17:40:40,903  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:40:40,965  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:40:40,997  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+17:40:40,997  INFO L2LoginServer:229 - Login Server ready on *:2106
+17:40:40,997  INFO Config:4457 - Loaded 2 IP Bans.
+17:40:55,631  WARN GameServerThread:159 - Incorrect packet checksum, closing connection (LS)
+17:46:55,265  INFO Util:141 - ======================================================================-[ Team ]
+17:46:55,265  INFO L2Frozen:35 -                                                                             
+17:46:55,265  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:46:55,265  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:46:55,265  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:46:55,265  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:46:55,265  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:46:55,265  INFO L2Frozen:41 -                                                                             
+17:46:55,297  INFO Util:141 - ==================================================================-[ Database ]
+17:46:55,312  INFO MLog:80 - MLog clients using log4j logging.
+17:46:55,437  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:46:59,630  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ java.beans.IntrospectionException: java.lang.reflect.InvocationTargetException [numThreadsAwaitingCheckoutDefaultUser] ]
+17:47:03,661 ERROR L2DatabaseFactory_c3p0:102 - Couldn't init DB connection, im dead x.x
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:346)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:119)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.initializeAutomaticTestTable(C3P0PooledConnectionPoolManager.java:772)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.createPooledConnectionPool(C3P0PooledConnectionPoolManager.java:696)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:257)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:271)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.l2jfrozen.util.database.L2DatabaseFactory_c3p0.<init>(L2DatabaseFactory_c3p0.java:90)
+	at com.l2jfrozen.util.database.L2DatabaseFactory.getInstance(L2DatabaseFactory.java:59)
+	at com.l2jfrozen.loginserver.L2LoginServer.<init>(L2LoginServer.java:132)
+	at com.l2jfrozen.loginserver.L2LoginServer.main(L2LoginServer.java:61)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:295)
+	... 24 more
+17:47:14,938  INFO Util:141 - ======================================================================-[ Team ]
+17:47:14,938  INFO L2Frozen:35 -                                                                             
+17:47:14,938  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:47:14,938  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:47:14,938  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:47:14,938  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:47:14,938  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:47:14,938  INFO L2Frozen:41 -                                                                             
+17:47:14,969  INFO Util:141 - ==================================================================-[ Database ]
+17:47:14,984  INFO MLog:80 - MLog clients using log4j logging.
+17:47:15,078  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:47:15,344  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b6anvwzc1uv72p0|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b6anvwzc1uv72p0|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:47:15,344  INFO Util:141 - ===========================================================-[ LoginController ]
+17:47:15,689  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:47:16,126  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:47:16,142  INFO GameServerTable:94 - Loaded 127 server names
+17:47:16,157  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+17:47:16,239  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:47:16,286  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+17:47:16,286  INFO L2LoginServer:229 - Login Server ready on *:2106
+17:47:16,302  INFO Config:4457 - Loaded 2 IP Bans.
+17:47:31,263  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+17:47:31,263  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+17:47:31,264  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+01:19:54,483  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+01:19:54,483  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+23:32:25,429  INFO Util:141 - ======================================================================-[ Team ]
+23:32:25,445  INFO L2Frozen:35 -                                                                             
+23:32:25,445  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+23:32:25,445  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+23:32:25,445  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+23:32:25,445  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+23:32:25,445  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+23:32:25,445  INFO L2Frozen:41 -                                                                             
+23:32:25,486  INFO Util:141 - ==================================================================-[ Database ]
+23:32:25,502  INFO MLog:80 - MLog clients using log4j logging.
+23:32:25,627  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+23:32:25,845  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b6dv3inx1ngwzex|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b6dv3inx1ngwzex|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+23:32:25,861  INFO Util:141 - ===========================================================-[ LoginController ]
+23:32:26,127  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+23:32:26,465  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+23:32:26,465  INFO GameServerTable:94 - Loaded 127 server names
+23:32:26,480  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+23:32:26,521  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+23:32:26,553  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+23:32:26,553  INFO L2LoginServer:229 - Login Server ready on *:2106
+23:32:26,568  INFO Config:4457 - Loaded 2 IP Bans.
+23:32:43,215  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+23:32:43,215  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+23:32:43,216  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+23:47:29,748  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+23:47:29,748  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+23:51:00,560  INFO Util:141 - ======================================================================-[ Team ]
+23:51:00,560  INFO L2Frozen:35 -                                                                             
+23:51:00,560  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+23:51:00,560  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+23:51:00,560  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+23:51:00,560  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+23:51:00,560  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+23:51:00,560  INFO L2Frozen:41 -                                                                             
+23:51:00,591  INFO Util:141 - ==================================================================-[ Database ]
+23:51:00,607  INFO MLog:80 - MLog clients using log4j logging.
+23:51:00,701  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+23:51:00,898  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge2y0b6dvrf2n1r3wls5|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge2y0b6dvrf2n1r3wls5|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+23:51:00,913  INFO Util:141 - ===========================================================-[ LoginController ]
+23:51:01,210  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+23:51:01,351  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+23:51:01,367  INFO GameServerTable:94 - Loaded 127 server names
+23:51:01,367  INFO GameServerTable:97 - Loaded 1 registered Game Servers
+23:51:01,429  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+23:51:01,445  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+23:51:01,445  INFO L2LoginServer:229 - Login Server ready on *:2106
+23:51:01,445  INFO Config:4457 - Loaded 2 IP Bans.
+23:51:13,429  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+23:51:13,429  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+23:51:13,430  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+00:20:59,194  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:20:59,194  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:21:14,903  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:25:11,554  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:25:11,554  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:25:26,284  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:42:15,825  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:42:15,825  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:04:20,176  INFO GameServerTable:94 - Loaded 127 server names
+00:04:20,192  INFO MLog:80 - MLog clients using log4j logging.
+00:04:20,323  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+00:04:20,476  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ java.beans.IntrospectionException: java.lang.reflect.InvocationTargetException [numThreadsAwaitingCheckoutDefaultUser] ]
+00:04:20,492 ERROR L2DatabaseFactory_c3p0:102 - Couldn't init DB connection, im dead x.x
+java.sql.SQLException: Access denied for user 'rootRomeo'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:119)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.initializeAutomaticTestTable(C3P0PooledConnectionPoolManager.java:772)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.createPooledConnectionPool(C3P0PooledConnectionPoolManager.java:696)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:257)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:271)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.l2jfrozen.util.database.L2DatabaseFactory_c3p0.<init>(L2DatabaseFactory_c3p0.java:90)
+	at com.l2jfrozen.util.database.L2DatabaseFactory.getInstance(L2DatabaseFactory.java:59)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.loadRegisteredGameServers(GameServerTable.java:208)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.<init>(GameServerTable.java:96)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.load(GameServerTable.java:80)
+	at com.l2jfrozen.gsregistering.GameServerRegister.main(GameServerRegister.java:53)
+00:04:32,408  INFO GameServerTable:94 - Loaded 127 server names
+00:04:32,424  INFO MLog:80 - MLog clients using log4j logging.
+00:04:32,539  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+00:04:32,686  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ java.beans.IntrospectionException: java.lang.reflect.InvocationTargetException [numThreadsAwaitingCheckoutDefaultUser] ]
+00:04:32,686 ERROR L2DatabaseFactory_c3p0:102 - Couldn't init DB connection, im dead x.x
+java.sql.SQLException: Access denied for user 'rootRomeo'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3535)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:934)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4104)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1299)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2338)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2371)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:119)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.initializeAutomaticTestTable(C3P0PooledConnectionPoolManager.java:772)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.createPooledConnectionPool(C3P0PooledConnectionPoolManager.java:696)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:257)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager.getPool(C3P0PooledConnectionPoolManager.java:271)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at com.l2jfrozen.util.database.L2DatabaseFactory_c3p0.<init>(L2DatabaseFactory_c3p0.java:90)
+	at com.l2jfrozen.util.database.L2DatabaseFactory.getInstance(L2DatabaseFactory.java:59)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.loadRegisteredGameServers(GameServerTable.java:208)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.<init>(GameServerTable.java:96)
+	at com.l2jfrozen.gameserver.datatables.GameServerTable.load(GameServerTable.java:80)
+	at com.l2jfrozen.gsregistering.GameServerRegister.main(GameServerRegister.java:53)

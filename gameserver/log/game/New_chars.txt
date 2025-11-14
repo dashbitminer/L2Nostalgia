@@ -1,0 +1,8 @@
+[24.09.20 13:11:09] '---': Created new character : Odin for account: admin214
+[24.09.20 19:51:21] '---': Created new character : Vanst for account: romeo456
+[24.09.20 22:48:32] '---': Created new character : Platina for account: romeo789
+[24.09.21 0:57:29] '---': Created new character : Yokohama for account: romeo123
+[24.09.21 0:57:56] '---': Created new character : Lindurita for account: romeo123
+[24.09.21 13:40:16] '---': Created new character : RaquelEugenio for account: romeo789
+[24.09.22 12:57:51] '---': Created new character : Archer for account: romeo456
+[24.09.23 22:14:37] '---': Created new character : Irina for account: romeo789
