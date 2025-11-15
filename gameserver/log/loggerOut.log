@@ -8625,3 +8625,607 @@ java.net.BindException: Address already in use: bind
 00:30:17,311  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
 00:30:17,312  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
 00:30:17,341  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 2 players data saved.
+17:19:27,702  INFO Util:141 - ======================================================================-[ Team ]
+17:19:27,707  INFO L2Frozen:35 -                                                                             
+17:19:27,713  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:19:27,720  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:19:27,723  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:19:27,730  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:19:27,741  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:19:27,741  INFO L2Frozen:41 -                                                                             
+17:19:27,818  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList "2280.3600"
+17:19:27,820  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2281.3600"
+17:19:27,824  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2282.3600"
+17:19:27,824  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2283.3600"
+17:19:27,830  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2284.3600"
+17:19:27,834  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2285.3600"
+17:19:27,915 ERROR Config:442 - java.io.FileNotFoundException: .\config\version\l2jfrozen-server.properties (El sistema no puede encontrar el archivo especificado)
+17:19:27,928  INFO Util:141 - ==================================================================-[ Database ]
+17:19:27,977  INFO MLog:80 - MLog clients using log4j logging.
+17:19:28,614  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:19:29,237  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13hbe10t64a6zm1x6f|6aceb1a5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13hbe10t64a6zm1x6f|6aceb1a5, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:19:29,264  INFO Loader:212 - L2DatabaseFactory: loaded.
+17:19:29,280  INFO Util:141 - ===================================================================-[ Threads ]
+17:19:29,307  INFO HtmCache:82 - Cache[HTML]: Running lazy cache
+17:19:29,360  INFO CrestCache:150 - Cache[Crest]: 0.000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
+17:19:29,740  INFO L2ScriptEngineManager:89 - Initializing Script Engine Manager
+17:19:30,160  INFO L2ScriptEngineManager:118 - Script Engine: Oracle Nashorn 1.8.0_361 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+17:19:30,195  INFO L2ScriptEngineManager:118 - Script Engine: java 1.6 - Language: java - Language Version: 1.6
+17:19:36,796  INFO L2ScriptEngineManager:118 - Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+17:19:36,823  INFO L2ScriptEngineManager:118 - Script Engine: BeanShell Engine 1.1 - Language: BeanShell - Language Version: 2.0b5
+17:19:36,870  INFO Util:141 - =====================================================================-[ World ]
+17:19:36,882  INFO L2World:963 - L2World: Setting up World Regions
+17:19:36,927  INFO L2World:991 - L2World: (87x128) World Region Grid set up.
+17:19:36,977  INFO Announcements:192 - Announcements: Loaded 2 Announcements.
+17:19:36,992  INFO AutoAnnouncementHandler:84 - GameServer: Loaded 0 Auto Announcements.
+17:19:37,002  INFO IdFactory:136 - Updated characters online status.
+17:19:37,100  INFO BitSetIDFactory:79 - IDFactory: 102912 id's available.
+17:19:37,270  INFO StaticObjects:60 - StaticObject: Loaded 30 StaticObject Templates.
+17:19:37,289  INFO TeleportLocationTable:94 - TeleportLocationTable: Loaded 828 Teleport Location Templates
+17:19:37,427  INFO ExperienceData:95 - ExperienceData: Loaded 87 levels
+17:19:37,427  INFO ExperienceData:96 - ExperienceData: Max Player Level is: 80
+17:19:37,428  INFO ExperienceData:97 - ExperienceData: Max Pet Level is: 80
+17:19:37,429  INFO DuelManager:56 - Initializing DuelManager
+17:19:37,443  INFO ClassDamageManager:107 - Loaded 31 classes Damages configurations
+17:19:37,445  INFO AutoSaveManager:56 - Initializing AutoSaveManager
+17:19:37,447  INFO Util:141 - ====================================================================-[ Skills ]
+17:19:40,143  INFO SkillsEngine:121 - SkillsEngine: Loaded 30524 Skill templates from XML files.
+17:19:40,146  INFO SkillTreeTable:76 - SkillSpellbookTable: Loaded 334 spellbooks
+17:19:40,147  INFO Loader:270 - Skills: All skills loaded.
+17:19:40,148  INFO Util:141 - =====================================================================-[ Items ]
+17:19:40,586  INFO ItemTable:300 - ItemTable: Loaded 1014 Armors.
+17:19:40,598  INFO ItemTable:306 - ItemTable: Loaded 6881 Items.
+17:19:40,886  INFO ItemTable:312 - ItemTable: Loaded 1313 Weapons.
+17:19:40,889  INFO ItemTable:649 - Highest item id used: 9208
+17:19:40,901  INFO ArmorSetsTable:87 - Loaded: 51 armor sets.
+17:19:40,909  INFO CustomArmorSetsTable:72 - ArmorSetsTable: Loaded custom armor sets.
+17:19:40,934  INFO ExtractableItemsData:148 - Extractable items data: Loaded 334 extractable items!
+17:19:40,946  INFO SummonItemsData:133 - Summon items data: Loaded 12 summon items.
+17:19:40,956  INFO SkillTreeTable:168 - FishTable: Loaded 270 Fishes.
+17:19:40,957  INFO Util:141 - =======================================================================-[ Npc ]
+17:19:40,959  INFO NpcWalkerRoutesTable:57 - Initializing Walkers Routes Table.
+17:19:40,964  INFO NpcWalkerRoutesTable:124 - WalkerRoutesTable: Loaded 167 Npc Walker Routes.
+17:19:41,287  INFO NpcTable:724 - NpcTable: Loaded 6592 Npc Templates.
+17:19:41,291  INFO NpcTable:724 - NpcTable: Loaded 6593 Npc Templates.
+17:19:41,352  INFO NpcTable:302 - CustomDropList : Added 0 custom droplist
+17:19:41,468  INFO NpcTable:441 - NpcTable: Loaded 447 Minions.
+17:19:41,469  INFO Util:141 - ================================================================-[ Characters ]
+17:19:41,500  INFO ForumsBBSManager:113 - Loaded 4 forums. Last forum id used: 4
+17:19:41,509  INFO ClanTable:154 - Restored 0 clans from the database.
+17:19:41,527  INFO CharTemplateTable:274 - CharTemplateTable: Loaded 89 Character Templates.
+17:19:41,531  INFO LevelUpData:106 - LevelUpData: Loaded 89 Character Level Up Templates.
+17:19:41,538  INFO HennaTable:115 - HennaTable: Loaded 180 Templates.
+17:19:41,624  INFO HennaTreeTable:138 - HennaTreeTable: Loaded 7128 Henna Tree Templates.
+17:19:41,629  INFO HennaTable:170 - Helper Buff Table: Loaded 14 templates
+17:19:41,629  INFO Util:141 - ===================================================================-[ Geodata ]
+17:19:41,632  INFO GeoData:40 - Geodata Engine: Disabled.
+17:19:41,632  INFO Util:141 - ===================================================================-[ Economy ]
+17:19:42,095  WARN TradeController:299 - L2TradeList 363 itemId  1856 has an ADENA sell price lower then reference price.. Automatically Updating it..
+17:19:42,097  WARN TradeController:299 - L2TradeList 364 itemId  1856 has an ADENA sell price lower then reference price.. Automatically Updating it..
+17:19:43,303  INFO TradeController:355 - TradeController: Loaded 508 Buylists.
+17:19:43,305  INFO TradeController:356 - TradeController: Loaded 132 Limited Buylists.
+17:19:43,413  INFO TradeController:574 - TradeController: Loaded 0 Custom Buylists.
+17:19:43,862  INFO Loader:330 - Multisell: loaded.
+17:19:43,865  INFO Util:141 - ================================================================-[ Clan Halls ]
+17:19:43,894  INFO ClanHallManager:72 - Initializing ClanHallManager
+17:19:44,078  INFO ClanHallManager:122 - Loaded: 0 clan halls
+17:19:44,079  INFO ClanHallManager:123 - Loaded: 44 free clan halls
+17:19:44,082  INFO FortressOfResistance:151 - Fortress of Resistanse: siege will start the 11-14-25 09:00 PM
+17:19:44,086  INFO DevastatedCastle:161 - Devastated Castle: siege will start the 11-17-25 06:00 PM
+17:19:44,091  INFO BanditStrongholdSiege:78 - SiegeManager of Bandits Stronghold
+17:19:44,118  INFO AuctionManager:130 - Initializing AuctionManager
+17:19:44,388  INFO AuctionManager:159 - Loaded: 38 auction(s)
+17:19:44,389  INFO Util:141 - ======================================================================-[ Zone ]
+17:19:44,396  INFO ZoneData:104 - Loading zones...
+17:19:44,494  INFO ArenaManager:39 - Initializing ArenaManager
+17:19:44,615  INFO TownManager:42 - Initializing TownManager
+17:19:45,005  INFO OlympiadStadiaManager:40 - Initializing OlympiadStadiaManager
+17:19:45,552  INFO CastleManager:117 - Initializing CastleManager
+17:19:45,643  INFO CastleManager:133 - Loaded: 9 castles
+17:19:45,812  INFO GrandBossManager:83 - Initializing GrandBossManager
+17:19:45,828  INFO GrandBossManager:130 - GrandBossManager: Loaded 15 Instances
+17:19:46,128  INFO FishingZoneManager:39 - Initializing FishingZoneManager
+17:19:47,413  INFO FortManager:56 - Initializing FortManager
+17:19:47,501  INFO FortManager:114 - Loaded: 21 fortress
+17:19:48,062  INFO GrandBossManager:182 - GrandBossManager: Initialized 17 Grand Boss Zones
+17:19:48,063  INFO ZoneData:594 - Done: loaded 565 zones.
+17:19:48,064  INFO Util:141 - =================================================================-[ Spawnlist ]
+17:19:48,179  INFO CustomNpcInstanceManager:201 - CustomNpcInstanceManager: loaded 0 NPC to PC polymorphs.
+17:19:48,562  INFO Siege:1236 - Siege of Dion: Sat Nov 22 20:00:00 CST 2025
+17:19:48,644  INFO Siege:1236 - Siege of Oren: Sun Nov 23 16:00:00 CST 2025
+17:19:49,096  INFO Siege:1236 - Siege of Gludio: Sat Nov 22 20:00:00 CST 2025
+17:19:49,119  INFO Siege:1236 - Siege of Giran: Sun Nov 23 16:00:00 CST 2025
+17:19:49,137  INFO Siege:1236 - Siege of Innadril: Sun Nov 23 16:00:00 CST 2025
+17:19:49,143  INFO Siege:1236 - Siege of Aden: Sat Nov 22 20:00:00 CST 2025
+17:19:49,209  INFO Siege:1236 - Siege of Goddard: Sun Nov 23 16:00:00 CST 2025
+17:19:49,412  INFO DayNightSpawnManager:74 - DayNightSpawnManager: Day/Night handler initialised
+17:19:49,451  INFO Siege:1236 - Siege of Rune: Sat Nov 22 20:00:00 CST 2025
+17:19:49,456  INFO Siege:1236 - Siege of Schuttgart: Sat Nov 22 20:00:00 CST 2025
+17:19:49,697  INFO SpawnTable:182 - SpawnTable: Loaded 37240 Npc Spawn Locations. 
+17:19:49,697  INFO SpawnTable:183 - SpawnTable: Spawning completed, total number of NPCs in the world: 37240
+17:19:49,754  INFO RaidBossSpawnManager:129 - RaidBossSpawnManager: Loaded 182 Instances
+17:19:49,755  INFO RaidBossSpawnManager:130 - RaidBossSpawnManager: Scheduled 0 Instances
+17:19:49,770  INFO DayNightSpawnManager:134 - DayNightSpawnManager: Deleted 0 night creatures
+17:19:49,782  INFO DayNightSpawnManager:176 - DayNightSpawnManager: Spawning 232 day creatures
+17:19:49,783  INFO Util:141 - ==========================================================-[ Dimensional Rift ]
+17:19:49,789  INFO DimensionalRiftManager:172 - DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+17:19:49,800  INFO DimensionalRiftManager:280 - DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+17:19:49,801  INFO Util:141 - ======================================================================-[ Misc ]
+17:19:49,815  INFO RecipeTable:88 - RecipeController: Loaded 871 Recipes.
+17:19:49,826  INFO AugmentationData:99 - Initializing AugmentationData.
+17:19:49,876  INFO AugmentationData:120 - AugmentationData: Loaded: 52 augmentation stats.
+17:19:49,880  INFO MercTicketManager:67 - Initializing MercTicketManager
+17:19:49,891  INFO MercTicketManager:738 - Loaded: 0 Mercenary Tickets
+17:19:49,894  INFO PetitionManager:87 - Initializing PetitionManager
+17:19:49,897  INFO CursedWeaponsManager:105 - Initializing CursedWeaponsManager
+17:19:49,909  INFO CursedWeaponsManager:82 - Loaded: 2 cursed weapon(s).
+17:19:49,957  INFO ItemsAutoDestroy:58 - Initializing ItemsAutoDestroy.
+17:19:49,958  INFO Util:141 - =====================================================================-[ Manor ]
+17:19:49,964  INFO L2Manor:385 - ManorManager: Loaded 256 seeds
+17:19:49,968  INFO CastleManorManager:79 - Initializing CastleManorManager
+17:19:49,985  INFO Util:141 - ===================================================================-[ Castles ]
+17:19:49,988  INFO SiegeManager:214 - Initializing SiegeManager
+17:19:49,996  INFO FortSiegeManager:190 - Initializing FortSiegeManager
+17:19:50,003  INFO CrownManager:47 - CrownManager: initialized
+17:19:50,003  INFO Util:141 - ======================================================================-[ Boat ]
+17:19:50,005  INFO BoatManager:58 - Initializing BoatManager
+17:19:50,032  INFO Util:141 - =====================================================================-[ Doors ]
+17:19:50,033  INFO DoorTable:96 - Searching clan halls doors:
+17:19:50,099  INFO DoorTable:121 - DoorTable: Loaded 1001 Door Templates.
+17:19:50,099  INFO Util:141 - ===========================================================-[ Four Sepulchers ]
+17:19:50,105  INFO GrandBossManager:130 - GrandBossManager: Loaded 15 Instances
+17:19:50,260  INFO GrandBossManager:345 - FourSepulchersManager: Beginning in Attack time
+17:19:50,261  INFO Util:141 - ===============================================================-[ Seven Signs ]
+17:19:50,277  INFO SevenSigns:287 - SevenSigns: Currently in the Competition (Quest Event) period!
+17:19:50,277  INFO SevenSigns:1440 - SevenSigns: The Seal of Avarice remains unclaimed.
+17:19:50,277  INFO SevenSigns:1440 - SevenSigns: The Seal of Gnosis remains unclaimed.
+17:19:50,277  INFO SevenSigns:1440 - SevenSigns: The Seal of Strife remains unclaimed.
+17:19:50,278  INFO SevenSigns:301 - SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+17:19:50,279  INFO SevenSigns:325 - SevenSigns: Next period begins in 3 days, 0 hours and 40 mins.
+17:19:50,369  INFO SevenSignsFestival:3393 - SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+17:19:50,370  INFO Util:141 - ===========================================================-[ Olympiad System ]
+17:19:50,383  INFO Olympiad:322 - Olympiad System: Loading Olympiad System....
+17:19:50,384  INFO Olympiad:324 - Olympiad System: Currently in Olympiad Period
+17:19:50,385  INFO Olympiad:334 - Olympiad System: 24160 minutes until period ends
+17:19:50,385  INFO Olympiad:340 - Olympiad System: Next weekly change is in 10079 minutes
+17:19:50,385  INFO Olympiad:344 - Olympiad System: Loaded 0 Nobles
+17:19:50,386  INFO Olympiad:746 - Olympiad System: Competition Period Starts in 0 days, 0 hours and 41 mins.
+17:19:50,388  INFO Olympiad:748 - Olympiad System: Event starts/started : Fri Nov 14 18:00:50 CST 2025
+17:19:50,408  INFO Hero:216 - Hero System: Loaded 0 Heroes.
+17:19:50,408  INFO Hero:217 - Hero System: Loaded 0 all time Heroes.
+17:19:50,408  INFO Util:141 - =============================================================-[ Access Levels ]
+17:19:50,414  INFO AccessLevels:105 - AccessLevels: Access level with name {} is using reserved master access level {}. Ignoring it.. Master Access 1
+17:19:50,416  INFO AccessLevels:182 - AccessLevels: Master Access Level is 1
+17:19:50,417  INFO AccessLevels:183 - AccessLevels: User Access Level is 0
+17:19:50,424  INFO AdminCommandAccessRights:82 - Admin Access Rights: Loaded 483 Access Rigths from database.
+17:19:50,424  INFO GmListTable:92 - GmListTable: initalized.
+17:19:50,425  INFO Util:141 - ==================================================================-[ Handlers ]
+17:19:50,475  INFO GameServer:155 - ItemHandler: Loaded 2047 handlers.
+17:19:50,517  INFO GameServer:125 - SkillHandler: Loaded 76 handlers.
+17:19:50,567  INFO AdminCommandHandler:194 - AdminCommandHandler: Loaded 500 handlers.
+17:19:50,576  INFO GameServer:86 - UserCommandHandler: Loaded 16 handlers.
+17:19:50,584  INFO GameServer:124 - VoicedCommandHandler: Loaded 16 handlers.
+17:19:50,586  INFO Loader:433 - AutoChatHandler : Loaded 32 handlers in total.
+17:19:50,586  INFO Loader:434 - AutoSpawnHandler : Loaded 129 handlers in total.
+17:19:50,590  INFO Util:141 - ========================================================================-[ AI ]
+17:19:50,590  INFO AILoader:58 - AI load:
+17:19:50,591  INFO AILoader:60 -  - Antharas_l2j
+17:19:50,595  INFO QuestManager:51 - Initializing QuestManager
+17:19:50,595  INFO AILoader:63 -  - Baium_l2j
+17:19:50,598  INFO AILoader:66 -  - Core
+17:19:50,616  INFO AILoader:69 -  - Queen Ant
+17:19:50,620  INFO AILoader:72 -  - Van Halter
+17:19:50,659  INFO AILoader:74 -  - Gordon
+17:19:50,665  INFO AILoader:77 -  - Monastery_l2j
+17:19:50,666  INFO AILoader:80 -  - Transform
+17:19:50,668  INFO AILoader:82 -  - Fairy Trees
+17:19:50,668  INFO AILoader:84 -  - Summon Minions
+17:19:50,670  INFO AILoader:86 -  - Zombie Gatekeepers
+17:19:50,671  INFO AILoader:88 -  - Ice Fairy Sirra
+17:19:50,690  INFO AILoader:90 -  - Golkonda
+17:19:50,692  INFO AILoader:92 -  - Hallate
+17:19:50,692  INFO AILoader:94 -  - Kernon
+17:19:50,695  INFO AILoader:96 -  - Varka/Ketra Ally
+17:19:50,696  INFO AILoader:98 -  - Barakiel
+17:19:50,697  INFO AILoader:101 -  - Orfen
+17:19:50,701  INFO AILoader:104 -  - Zaken_l2j
+17:19:50,708  INFO AILoader:107 -  - Frintezza_l2j
+17:19:50,716  INFO AILoader:110 -  - Valakas_l2j
+17:19:50,723  INFO Util:141 - ===================================================================-[ Scripts ]
+17:19:50,769  INFO GrandBossManager:268 - GrandBossManager: Updated High Priestess van Halter(29062) status to 1
+17:19:53,394  INFO QuestManager:127 - Replaced: SagasSuperclass with a new version
+17:20:01,551  INFO Loader:490 - Compiled Scripts Cache is disabled.
+17:20:01,567  INFO FaenorScriptEngine:77 - [FeanorScriptEngine] Loading Packages ...
+17:20:01,569  INFO FaenorScriptEngine:93 - [FeanorScriptEngine] No Packages Loaded ...
+17:20:01,632  INFO Util:141 - ====================================================================-[ Quests ]
+17:20:01,644  INFO QuestManager:95 - Loaded: 454 quests
+17:20:01,650  INFO Util:141 - ===============================================================-[ Game Server ]
+17:20:01,655  INFO Loader:530 - IdFactory: Free ObjectID's remaining: 1879005857
+17:20:01,676  INFO Util:141 - ===============================================================-[ Custom Mods ]
+17:20:01,676  INFO Loader:560 - All custom mods are Disabled.
+17:20:01,678  INFO Util:141 - ==============================================================-[ EventManager ]
+17:20:01,689  INFO Loader:575 - All events are Disabled.
+17:20:01,692  INFO OfflineTradeTable:181 - Loading offline traders...
+17:20:01,699  INFO OfflineTradeTable:286 - Loaded: 0 offline trader(s)
+17:20:01,700  INFO Util:141 - ================================================================-[ Protection ]
+17:20:01,710  INFO Loader:583 - Check skills on enter actived.
+17:20:01,710  INFO Loader:586 - Check bad name on enter actived.
+17:20:01,710  INFO Loader:589 - Check OverEnchant items on enter actived.
+17:20:01,710  INFO Loader:592 - Bypass Validation actived.
+17:20:01,710  INFO Loader:595 - L2Walker protection actived.
+17:20:01,722  INFO Loader:601 - Full packets flood protector actived.
+17:20:01,722  INFO Loader:604 - Client flood protection actived.
+17:20:01,722  INFO Util:141 - ======================================================================-[ Info ]
+17:20:01,722  INFO Loader:607 - Operating System: Windows 11 10.0 amd64
+17:20:01,722  INFO Loader:608 - Available CPUs: 12
+17:20:01,730  INFO Loader:609 - Maximum Numbers of Connected Players: 1000
+17:20:01,730  INFO Loader:610 - GameServer Started, free memory 572 Mb of 910 Mb
+17:20:01,730  INFO Loader:611 - Used memory: 337 MB
+17:20:01,730  INFO Util:141 - =============================================================-[ Java specific ]
+17:20:01,730  INFO Loader:614 - JRE name: Oracle Corporation
+17:20:01,730  INFO Loader:615 - JRE specification version: 1.8
+17:20:01,730  INFO Loader:616 - JRE version: 1.8.0_361
+17:20:01,730  INFO Loader:617 - --- Detecting Java Virtual Machine (JVM)
+17:20:01,730  INFO Loader:618 - JVM installation directory: C:\Program Files\Java\jre1.8.0_361
+17:20:01,730  INFO Loader:619 - JVM Avaible Memory(RAM): 910 MB
+17:20:01,738  INFO Loader:620 - JVM specification version: 1.8
+17:20:01,738  INFO Loader:621 - JVM specification vendor: Oracle Corporation
+17:20:01,740  INFO Loader:622 - JVM specification name: Java Virtual Machine Specification
+17:20:01,740  INFO Loader:623 - JVM implementation version: 25.361-b09
+17:20:01,740  INFO Loader:624 - JVM implementation vendor: Oracle Corporation
+17:20:01,742  INFO Loader:625 - JVM implementation name: Java HotSpot(TM) 64-Bit Server VM
+17:20:01,742  INFO Util:141 - ====================================================================-[ Status ]
+17:20:03,825  INFO Loader:629 - Server Loaded in 36 seconds
+17:20:03,838  INFO Util:141 - ====================================================================-[ Telnet ]
+17:20:03,839  INFO Loader:641 - Telnet server is disabled.
+17:20:03,839  INFO Util:141 - =====================================================================-[ Login ]
+17:20:03,861  INFO LoginServerThread:155 - Connecting to login on 127.0.0.1:9014
+17:20:06,637  INFO LoginServerThread:282 - Registered on login as Server 1 : Extreme
+17:24:37,461  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+17:24:37,461  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+17:24:37,466  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+17:39:37,457  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+17:39:37,489  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+17:39:37,522  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 1 players data saved.
+17:49:49,977  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+17:50:03,844  INFO Util:141 - =============================================================-[ Server Status ]
+17:50:03,846  INFO Loader:69 - Server Time: 17:50.
+17:50:03,846  INFO Loader:70 - Active Players Online: 0
+17:50:03,847  INFO Loader:71 - Offline Players Online: 0
+17:50:03,848  INFO Loader:72 - Threads: 13
+17:50:03,848  INFO Loader:73 - Free Memory: 509 MB
+17:50:03,849  INFO Loader:74 - Used memory: 401 MB
+17:50:03,851  INFO Util:141 - =============================================================-[ Server Status ]
+17:52:25,988  WARN L2Character:9576 - GM Login at 17:52. Odin logs in game with AccessLevel 200.
+17:52:25,991  WARN L2Character:9589 - Tried to set unregistered access level 200 to character Odin. Setting access level without privileges!
+17:54:37,446  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+17:54:37,453  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+17:54:37,462  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+17:59:19,890  WARN L2Character:9576 - GM Login at 17:59. Odin logs in game with AccessLevel 200.
+17:59:19,892  WARN L2Character:9589 - Tried to set unregistered access level 200 to character Odin. Setting access level without privileges!
+18:00:50,403  INFO Olympiad:763 - Olympiad System: Olympiad Game Started
+18:01:14,266  WARN L2Character:9576 - GM Login at 18:01. Odin logs in game with AccessLevel 100.
+18:01:14,267  WARN L2Character:9589 - Tried to set unregistered access level 100 to character Odin. Setting access level without privileges!
+19:14:30,467  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:14:30,483  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:14:30,511  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:14:30,590  INFO TaskOlympiadSave:54 - [GlobalTask] Olympiad System save launched.
+19:14:31,076  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:14:31,146  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:14:31,097  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:14:31,418  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+19:14:31,489  INFO TaskOlympiadSave:54 - [GlobalTask] Olympiad System save launched.
+19:14:31,591  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:14:31,622  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:14:31,591  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:14:31,815  INFO Util:141 - =============================================================-[ Server Status ]
+19:14:31,828  INFO Loader:69 - Server Time: 19:14.
+19:14:31,890  INFO Loader:70 - Active Players Online: 0
+19:14:31,911  INFO Loader:71 - Offline Players Online: 0
+19:14:31,928  INFO Loader:72 - Threads: 14
+19:14:31,950  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:14:31,974  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:14:31,948  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:14:31,952  INFO Loader:73 - Free Memory: 483 MB
+19:14:32,018  INFO Loader:74 - Used memory: 427 MB
+19:14:32,032  INFO Util:141 - =============================================================-[ Server Status ]
+19:14:32,068  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+19:14:32,311  INFO TaskOlympiadSave:54 - [GlobalTask] Olympiad System save launched.
+19:14:32,351  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:14:32,372  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:14:32,353  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:58:12,397  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+19:58:12,406  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:58:12,406  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:58:12,423  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:58:13,375  INFO TaskOlympiadSave:54 - [GlobalTask] Olympiad System save launched.
+19:58:13,678  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:58:13,703  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+19:58:13,689  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:58:14,564  INFO Util:141 - =============================================================-[ Server Status ]
+19:58:14,599  INFO Loader:69 - Server Time: 19:58.
+19:58:14,653  INFO Loader:70 - Active Players Online: 0
+19:58:14,699  INFO Loader:71 - Offline Players Online: 0
+19:58:14,743  INFO Loader:72 - Threads: 14
+19:58:14,797  INFO Loader:73 - Free Memory: 552 MB
+19:58:14,832  INFO Loader:74 - Used memory: 358 MB
+19:58:14,822  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+19:58:14,869  INFO Util:141 - =============================================================-[ Server Status ]
+19:58:14,939  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+19:58:14,918  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+19:58:14,962  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+20:00:00,011  INFO CastleManorManager:548 - Manor System: Under maintenance mode started
+20:04:49,984  INFO TaskOlympiadSave:54 - [GlobalTask] Olympiad System save launched.
+20:06:00,011  INFO CastleManorManager:556 - Manor System: Next period started
+20:09:37,463  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+20:09:37,464  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+20:09:37,478  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+20:19:49,962  INFO TaskSevenSignsUpdate:57 - [GlobalTask] SevenSigns save launched.
+20:19:52,713  INFO Zaken:142 - Zaken door id 21240006 opened, game time 00.00.
+20:24:37,458  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+20:24:37,458  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 0 players data saved.
+20:24:37,460  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+20:24:52,764  INFO Zaken:151 - Zaken door id 21240006 closed.
+20:29:19,362  INFO Util:141 - ======================================================================-[ Team ]
+20:29:19,384  INFO L2Frozen:35 -                                                                             
+20:29:19,386  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+20:29:19,394  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+20:29:19,396  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+20:29:19,400  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+20:29:19,406  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+20:29:19,411  INFO L2Frozen:41 -                                                                             
+20:29:19,519  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList "2280.3600"
+20:29:19,519  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2281.3600"
+20:29:19,520  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2282.3600"
+20:29:19,520  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2283.3600"
+20:29:19,520  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2284.3600"
+20:29:19,522  INFO Config:841 - [SkillDurationList]: invalid config property -> SkillDurationList " 2285.3600"
+20:29:19,649 ERROR Config:442 - java.io.FileNotFoundException: .\config\version\l2jfrozen-server.properties (El sistema no puede encontrar el archivo especificado)
+20:29:19,656  INFO Util:141 - ==================================================================-[ Database ]
+20:29:19,700  INFO MLog:80 - MLog clients using log4j logging.
+20:29:20,848  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+20:29:21,463  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13hbe10zya752byl75|6aceb1a5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13hbe10zya752byl75|6aceb1a5, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+20:29:21,521  INFO Loader:212 - L2DatabaseFactory: loaded.
+20:29:21,527  INFO Util:141 - ===================================================================-[ Threads ]
+20:29:21,565  INFO HtmCache:82 - Cache[HTML]: Running lazy cache
+20:29:21,615  INFO CrestCache:150 - Cache[Crest]: 0.000MB on 0 files loaded. (Forget Time: 300s , Capacity: 50)
+20:29:21,653  INFO L2ScriptEngineManager:89 - Initializing Script Engine Manager
+20:29:22,299  INFO L2ScriptEngineManager:118 - Script Engine: Oracle Nashorn 1.8.0_361 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+20:29:22,362  INFO L2ScriptEngineManager:118 - Script Engine: java 1.6 - Language: java - Language Version: 1.6
+20:29:22,998  INFO L2ScriptEngineManager:118 - Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+20:29:23,068  INFO L2ScriptEngineManager:118 - Script Engine: BeanShell Engine 1.1 - Language: BeanShell - Language Version: 2.0b5
+20:29:23,300  INFO Util:141 - =====================================================================-[ World ]
+20:29:23,303  INFO L2World:963 - L2World: Setting up World Regions
+20:29:23,498  INFO L2World:991 - L2World: (87x128) World Region Grid set up.
+20:29:23,591  INFO Announcements:192 - Announcements: Loaded 2 Announcements.
+20:29:23,618  INFO AutoAnnouncementHandler:84 - GameServer: Loaded 0 Auto Announcements.
+20:29:23,737  INFO IdFactory:136 - Updated characters online status.
+20:29:24,146  INFO BitSetIDFactory:79 - IDFactory: 102912 id's available.
+20:29:24,537  INFO StaticObjects:60 - StaticObject: Loaded 30 StaticObject Templates.
+20:29:24,575  INFO TeleportLocationTable:94 - TeleportLocationTable: Loaded 828 Teleport Location Templates
+20:29:25,105  INFO ExperienceData:95 - ExperienceData: Loaded 87 levels
+20:29:25,106  INFO ExperienceData:96 - ExperienceData: Max Player Level is: 80
+20:29:25,106  INFO ExperienceData:97 - ExperienceData: Max Pet Level is: 80
+20:29:25,109  INFO DuelManager:56 - Initializing DuelManager
+20:29:25,143  INFO ClassDamageManager:107 - Loaded 31 classes Damages configurations
+20:29:25,148  INFO AutoSaveManager:56 - Initializing AutoSaveManager
+20:29:25,155  INFO Util:141 - ====================================================================-[ Skills ]
+20:29:31,122  INFO SkillsEngine:121 - SkillsEngine: Loaded 30524 Skill templates from XML files.
+20:29:31,133  INFO SkillTreeTable:76 - SkillSpellbookTable: Loaded 334 spellbooks
+20:29:31,136  INFO Loader:270 - Skills: All skills loaded.
+20:29:31,137  INFO Util:141 - =====================================================================-[ Items ]
+20:29:32,334  INFO ItemTable:300 - ItemTable: Loaded 1014 Armors.
+20:29:32,372  INFO ItemTable:306 - ItemTable: Loaded 6881 Items.
+20:29:33,169  INFO ItemTable:312 - ItemTable: Loaded 1313 Weapons.
+20:29:33,174  INFO ItemTable:649 - Highest item id used: 9208
+20:29:33,199  INFO ArmorSetsTable:87 - Loaded: 51 armor sets.
+20:29:33,206  INFO CustomArmorSetsTable:72 - ArmorSetsTable: Loaded custom armor sets.
+20:29:33,286  INFO ExtractableItemsData:148 - Extractable items data: Loaded 334 extractable items!
+20:29:33,300  INFO SummonItemsData:133 - Summon items data: Loaded 12 summon items.
+20:29:33,317  INFO SkillTreeTable:168 - FishTable: Loaded 270 Fishes.
+20:29:33,321  INFO Util:141 - =======================================================================-[ Npc ]
+20:29:33,325  INFO NpcWalkerRoutesTable:57 - Initializing Walkers Routes Table.
+20:29:33,335  INFO NpcWalkerRoutesTable:124 - WalkerRoutesTable: Loaded 167 Npc Walker Routes.
+20:29:33,826  INFO NpcTable:724 - NpcTable: Loaded 6592 Npc Templates.
+20:29:33,832  INFO NpcTable:724 - NpcTable: Loaded 6593 Npc Templates.
+20:29:33,960  INFO NpcTable:302 - CustomDropList : Added 0 custom droplist
+20:29:34,216  INFO NpcTable:441 - NpcTable: Loaded 447 Minions.
+20:29:34,217  INFO Util:141 - ================================================================-[ Characters ]
+20:29:34,263  INFO ForumsBBSManager:113 - Loaded 4 forums. Last forum id used: 4
+20:29:34,284  INFO ClanTable:154 - Restored 0 clans from the database.
+20:29:34,316  INFO CharTemplateTable:274 - CharTemplateTable: Loaded 89 Character Templates.
+20:29:34,326  INFO LevelUpData:106 - LevelUpData: Loaded 89 Character Level Up Templates.
+20:29:34,338  INFO HennaTable:115 - HennaTable: Loaded 180 Templates.
+20:29:34,585  INFO HennaTreeTable:138 - HennaTreeTable: Loaded 7128 Henna Tree Templates.
+20:29:34,596  INFO HennaTable:170 - Helper Buff Table: Loaded 14 templates
+20:29:34,597  INFO Util:141 - ===================================================================-[ Geodata ]
+20:29:34,605  INFO GeoData:40 - Geodata Engine: Disabled.
+20:29:34,605  INFO Util:141 - ===================================================================-[ Economy ]
+20:29:35,237  WARN TradeController:299 - L2TradeList 363 itemId  1856 has an ADENA sell price lower then reference price.. Automatically Updating it..
+20:29:35,240  WARN TradeController:299 - L2TradeList 364 itemId  1856 has an ADENA sell price lower then reference price.. Automatically Updating it..
+20:29:36,222  INFO TradeController:355 - TradeController: Loaded 508 Buylists.
+20:29:36,224  INFO TradeController:356 - TradeController: Loaded 132 Limited Buylists.
+20:29:36,258  INFO TradeController:574 - TradeController: Loaded 0 Custom Buylists.
+20:29:39,569  INFO Loader:330 - Multisell: loaded.
+20:29:39,574  INFO Util:141 - ================================================================-[ Clan Halls ]
+20:29:39,584  INFO ClanHallManager:72 - Initializing ClanHallManager
+20:29:40,211  INFO ClanHallManager:122 - Loaded: 0 clan halls
+20:29:40,216  INFO ClanHallManager:123 - Loaded: 44 free clan halls
+20:29:40,235  INFO FortressOfResistance:151 - Fortress of Resistanse: siege will start the 11-14-25 09:00 PM
+20:29:40,274  INFO DevastatedCastle:161 - Devastated Castle: siege will start the 11-17-25 06:00 PM
+20:29:40,312  INFO BanditStrongholdSiege:78 - SiegeManager of Bandits Stronghold
+20:29:40,332  INFO AuctionManager:130 - Initializing AuctionManager
+20:29:40,660  INFO AuctionManager:159 - Loaded: 38 auction(s)
+20:29:40,663  INFO Util:141 - ======================================================================-[ Zone ]
+20:29:40,727  INFO ZoneData:104 - Loading zones...
+20:29:41,292  INFO ArenaManager:39 - Initializing ArenaManager
+20:29:41,870  INFO TownManager:42 - Initializing TownManager
+20:29:45,425  INFO OlympiadStadiaManager:40 - Initializing OlympiadStadiaManager
+20:29:48,615  INFO CastleManager:117 - Initializing CastleManager
+20:29:48,714  INFO CastleManager:133 - Loaded: 9 castles
+20:29:48,834  INFO GrandBossManager:83 - Initializing GrandBossManager
+20:29:48,842  INFO GrandBossManager:130 - GrandBossManager: Loaded 15 Instances
+20:29:49,205  INFO FishingZoneManager:39 - Initializing FishingZoneManager
+20:29:50,867  INFO FortManager:56 - Initializing FortManager
+20:29:51,233  INFO FortManager:114 - Loaded: 21 fortress
+20:30:01,748  INFO GrandBossManager:182 - GrandBossManager: Initialized 17 Grand Boss Zones
+20:30:01,752  INFO ZoneData:594 - Done: loaded 565 zones.
+20:30:01,770  INFO Util:141 - =================================================================-[ Spawnlist ]
+20:30:02,310  INFO CustomNpcInstanceManager:201 - CustomNpcInstanceManager: loaded 0 NPC to PC polymorphs.
+20:30:06,645  INFO Siege:1236 - Siege of Dion: Sat Nov 22 20:00:00 CST 2025
+20:30:07,381  INFO Siege:1236 - Siege of Oren: Sun Nov 23 16:00:00 CST 2025
+20:30:11,148  INFO Siege:1236 - Siege of Gludio: Sat Nov 22 20:00:00 CST 2025
+20:30:11,165  INFO Siege:1236 - Siege of Giran: Sun Nov 23 16:00:00 CST 2025
+20:30:11,172  INFO Siege:1236 - Siege of Innadril: Sun Nov 23 16:00:00 CST 2025
+20:30:11,180  INFO Siege:1236 - Siege of Aden: Sat Nov 22 20:00:00 CST 2025
+20:30:11,416  INFO Siege:1236 - Siege of Goddard: Sun Nov 23 16:00:00 CST 2025
+20:30:11,458  INFO DayNightSpawnManager:74 - DayNightSpawnManager: Day/Night handler initialised
+20:30:11,532  INFO Siege:1236 - Siege of Rune: Sat Nov 22 20:00:00 CST 2025
+20:30:11,537  INFO Siege:1236 - Siege of Schuttgart: Sat Nov 22 20:00:00 CST 2025
+20:30:12,248  INFO SpawnTable:182 - SpawnTable: Loaded 37240 Npc Spawn Locations. 
+20:30:12,252  INFO SpawnTable:183 - SpawnTable: Spawning completed, total number of NPCs in the world: 37240
+20:30:12,421  INFO RaidBossSpawnManager:129 - RaidBossSpawnManager: Loaded 182 Instances
+20:30:12,422  INFO RaidBossSpawnManager:130 - RaidBossSpawnManager: Scheduled 0 Instances
+20:30:12,434  INFO DayNightSpawnManager:134 - DayNightSpawnManager: Deleted 0 night creatures
+20:30:12,457  INFO DayNightSpawnManager:176 - DayNightSpawnManager: Spawning 232 day creatures
+20:30:12,468  INFO Util:141 - ==========================================================-[ Dimensional Rift ]
+20:30:12,492  INFO DimensionalRiftManager:172 - DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+20:30:12,530  INFO DimensionalRiftManager:280 - DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+20:30:12,534  INFO Util:141 - ======================================================================-[ Misc ]
+20:30:12,579  INFO RecipeTable:88 - RecipeController: Loaded 871 Recipes.
+20:30:12,590  INFO AugmentationData:99 - Initializing AugmentationData.
+20:30:12,762  INFO AugmentationData:120 - AugmentationData: Loaded: 52 augmentation stats.
+20:30:12,769  INFO MercTicketManager:67 - Initializing MercTicketManager
+20:30:12,799  INFO MercTicketManager:738 - Loaded: 0 Mercenary Tickets
+20:30:12,808  INFO PetitionManager:87 - Initializing PetitionManager
+20:30:12,817  INFO CursedWeaponsManager:105 - Initializing CursedWeaponsManager
+20:30:12,858  INFO CursedWeaponsManager:82 - Loaded: 2 cursed weapon(s).
+20:30:12,962  INFO ItemsAutoDestroy:58 - Initializing ItemsAutoDestroy.
+20:30:12,963  INFO Util:141 - =====================================================================-[ Manor ]
+20:30:12,973  INFO L2Manor:385 - ManorManager: Loaded 256 seeds
+20:30:12,981  INFO CastleManorManager:79 - Initializing CastleManorManager
+20:30:13,004  INFO Util:141 - ===================================================================-[ Castles ]
+20:30:13,013  INFO SiegeManager:214 - Initializing SiegeManager
+20:30:13,030  INFO FortSiegeManager:190 - Initializing FortSiegeManager
+20:30:13,045  INFO CrownManager:47 - CrownManager: initialized
+20:30:13,046  INFO Util:141 - ======================================================================-[ Boat ]
+20:30:13,049  INFO BoatManager:58 - Initializing BoatManager
+20:30:13,112  INFO Util:141 - =====================================================================-[ Doors ]
+20:30:13,117  INFO DoorTable:96 - Searching clan halls doors:
+20:30:13,449  INFO DoorTable:121 - DoorTable: Loaded 1001 Door Templates.
+20:30:13,453  INFO Util:141 - ===========================================================-[ Four Sepulchers ]
+20:30:13,497  INFO GrandBossManager:130 - GrandBossManager: Loaded 15 Instances
+20:30:13,790  INFO GrandBossManager:345 - FourSepulchersManager: Beginning in Attack time
+20:30:13,794  INFO Util:141 - ===============================================================-[ Seven Signs ]
+20:30:13,815  INFO SevenSigns:287 - SevenSigns: Currently in the Competition (Quest Event) period!
+20:30:13,816  INFO SevenSigns:1440 - SevenSigns: The Seal of Avarice remains unclaimed.
+20:30:13,816  INFO SevenSigns:1440 - SevenSigns: The Seal of Gnosis remains unclaimed.
+20:30:13,817  INFO SevenSigns:1440 - SevenSigns: The Seal of Strife remains unclaimed.
+20:30:13,817  INFO SevenSigns:301 - SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+20:30:13,824  INFO SevenSigns:325 - SevenSigns: Next period begins in 2 days, 21 hours and 29 mins.
+20:30:14,072  INFO SevenSignsFestival:3393 - SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+20:30:14,075  INFO Util:141 - ===========================================================-[ Olympiad System ]
+20:30:14,095  INFO Olympiad:322 - Olympiad System: Loading Olympiad System....
+20:30:14,095  INFO Olympiad:324 - Olympiad System: Currently in Olympiad Period
+20:30:14,096  INFO Olympiad:334 - Olympiad System: 23969 minutes until period ends
+20:30:14,097  INFO Olympiad:340 - Olympiad System: Next weekly change is in 9889 minutes
+20:30:14,098  INFO Olympiad:344 - Olympiad System: Loaded 0 Nobles
+20:30:14,100  INFO Olympiad:746 - Olympiad System: Competition Period Starts in 0 days, 0 hours and 0 mins.
+20:30:14,101  INFO Olympiad:748 - Olympiad System: Event starts/started : Fri Nov 14 18:00:14 CST 2025
+20:30:14,119  INFO Hero:216 - Hero System: Loaded 0 Heroes.
+20:30:14,121  INFO Hero:217 - Hero System: Loaded 0 all time Heroes.
+20:30:14,121  INFO Util:141 - =============================================================-[ Access Levels ]
+20:30:14,128  INFO Olympiad:763 - Olympiad System: Olympiad Game Started
+20:30:14,134  INFO AccessLevels:105 - AccessLevels: Access level with name {} is using reserved master access level {}. Ignoring it.. Master Access 1
+20:30:14,134  INFO AccessLevels:182 - AccessLevels: Master Access Level is 1
+20:30:14,135  INFO AccessLevels:183 - AccessLevels: User Access Level is 0
+20:30:14,149  INFO AdminCommandAccessRights:82 - Admin Access Rights: Loaded 483 Access Rigths from database.
+20:30:14,152  INFO GmListTable:92 - GmListTable: initalized.
+20:30:14,157  INFO Util:141 - ==================================================================-[ Handlers ]
+20:30:14,267  INFO GameServer:155 - ItemHandler: Loaded 2047 handlers.
+20:30:14,334  INFO GameServer:125 - SkillHandler: Loaded 76 handlers.
+20:30:14,498  INFO AdminCommandHandler:194 - AdminCommandHandler: Loaded 500 handlers.
+20:30:14,517  INFO GameServer:86 - UserCommandHandler: Loaded 16 handlers.
+20:30:14,542  INFO GameServer:124 - VoicedCommandHandler: Loaded 16 handlers.
+20:30:14,546  INFO Loader:433 - AutoChatHandler : Loaded 32 handlers in total.
+20:30:14,546  INFO Loader:434 - AutoSpawnHandler : Loaded 129 handlers in total.
+20:30:14,556  INFO Util:141 - ========================================================================-[ AI ]
+20:30:14,560  INFO AILoader:58 - AI load:
+20:30:14,561  INFO AILoader:60 -  - Antharas_l2j
+20:30:14,572  INFO QuestManager:51 - Initializing QuestManager
+20:30:14,575  INFO AILoader:63 -  - Baium_l2j
+20:30:14,582  INFO AILoader:66 -  - Core
+20:30:14,618  INFO AILoader:69 -  - Queen Ant
+20:30:14,630  INFO AILoader:72 -  - Van Halter
+20:30:14,676  INFO GrandBossManager:268 - GrandBossManager: Updated High Priestess van Halter(29062) status to 1
+20:30:14,680  INFO AILoader:74 -  - Gordon
+20:30:14,684  INFO AILoader:77 -  - Monastery_l2j
+20:30:14,689  INFO AILoader:80 -  - Transform
+20:30:14,693  INFO AILoader:82 -  - Fairy Trees
+20:30:14,696  INFO AILoader:84 -  - Summon Minions
+20:30:14,699  INFO AILoader:86 -  - Zombie Gatekeepers
+20:30:14,704  INFO AILoader:88 -  - Ice Fairy Sirra
+20:30:14,742  INFO AILoader:90 -  - Golkonda
+20:30:14,744  INFO AILoader:92 -  - Hallate
+20:30:14,745  INFO AILoader:94 -  - Kernon
+20:30:14,746  INFO AILoader:96 -  - Varka/Ketra Ally
+20:30:14,749  INFO AILoader:98 -  - Barakiel
+20:30:14,750  INFO AILoader:101 -  - Orfen
+20:30:14,777  INFO AILoader:104 -  - Zaken_l2j
+20:30:14,783  INFO AILoader:107 -  - Frintezza_l2j
+20:30:14,797  INFO AILoader:110 -  - Valakas_l2j
+20:30:14,802  INFO Util:141 - ===================================================================-[ Scripts ]
+20:30:21,858  INFO QuestManager:127 - Replaced: SagasSuperclass with a new version
+20:30:39,004  INFO Loader:490 - Compiled Scripts Cache is disabled.
+20:30:39,039  INFO FaenorScriptEngine:77 - [FeanorScriptEngine] Loading Packages ...
+20:30:39,041  INFO FaenorScriptEngine:93 - [FeanorScriptEngine] No Packages Loaded ...
+20:30:39,068  INFO Util:141 - ====================================================================-[ Quests ]
+20:30:39,069  INFO QuestManager:95 - Loaded: 454 quests
+20:30:39,070  INFO Util:141 - ===============================================================-[ Game Server ]
+20:30:39,070  INFO Loader:530 - IdFactory: Free ObjectID's remaining: 1879005885
+20:30:39,076  INFO Util:141 - ===============================================================-[ Custom Mods ]
+20:30:39,076  INFO Loader:560 - All custom mods are Disabled.
+20:30:39,077  INFO Util:141 - ==============================================================-[ EventManager ]
+20:30:39,083  INFO Loader:575 - All events are Disabled.
+20:30:39,086  INFO OfflineTradeTable:181 - Loading offline traders...
+20:30:39,089  INFO OfflineTradeTable:286 - Loaded: 0 offline trader(s)
+20:30:39,090  INFO Util:141 - ================================================================-[ Protection ]
+20:30:39,090  INFO Loader:583 - Check skills on enter actived.
+20:30:39,090  INFO Loader:586 - Check bad name on enter actived.
+20:30:39,090  INFO Loader:589 - Check OverEnchant items on enter actived.
+20:30:39,090  INFO Loader:592 - Bypass Validation actived.
+20:30:39,092  INFO Loader:595 - L2Walker protection actived.
+20:30:39,101  INFO Loader:601 - Full packets flood protector actived.
+20:30:39,101  INFO Loader:604 - Client flood protection actived.
+20:30:39,101  INFO Util:141 - ======================================================================-[ Info ]
+20:30:39,102  INFO Loader:607 - Operating System: Windows 11 10.0 amd64
+20:30:39,102  INFO Loader:608 - Available CPUs: 12
+20:30:39,102  INFO Loader:609 - Maximum Numbers of Connected Players: 1000
+20:30:39,103  INFO Loader:610 - GameServer Started, free memory 569 Mb of 910 Mb
+20:30:39,103  INFO Loader:611 - Used memory: 341 MB
+20:30:39,103  INFO Util:141 - =============================================================-[ Java specific ]
+20:30:39,103  INFO Loader:614 - JRE name: Oracle Corporation
+20:30:39,103  INFO Loader:615 - JRE specification version: 1.8
+20:30:39,103  INFO Loader:616 - JRE version: 1.8.0_361
+20:30:39,103  INFO Loader:617 - --- Detecting Java Virtual Machine (JVM)
+20:30:39,104  INFO Loader:618 - JVM installation directory: C:\Program Files\Java\jre1.8.0_361
+20:30:39,104  INFO Loader:619 - JVM Avaible Memory(RAM): 910 MB
+20:30:39,104  INFO Loader:620 - JVM specification version: 1.8
+20:30:39,104  INFO Loader:621 - JVM specification vendor: Oracle Corporation
+20:30:39,105  INFO Loader:622 - JVM specification name: Java Virtual Machine Specification
+20:30:39,105  INFO Loader:623 - JVM implementation version: 25.361-b09
+20:30:39,105  INFO Loader:624 - JVM implementation vendor: Oracle Corporation
+20:30:39,105  INFO Loader:625 - JVM implementation name: Java HotSpot(TM) 64-Bit Server VM
+20:30:39,106  INFO Util:141 - ====================================================================-[ Status ]
+20:30:42,828  INFO Loader:629 - Server Loaded in 83 seconds
+20:30:42,835  INFO Util:141 - ====================================================================-[ Telnet ]
+20:30:42,836  INFO Loader:641 - Telnet server is disabled.
+20:30:42,836  INFO Util:141 - =====================================================================-[ Login ]
+20:30:42,880  INFO LoginServerThread:155 - Connecting to login on 127.0.0.1:9014
+20:30:47,406  INFO LoginServerThread:282 - Registered on login as Server 1 : Extreme
+20:32:25,736  WARN L2Character:9576 - GM Login at 20:32. Odin logs in game with AccessLevel 200.
+20:32:25,738  WARN L2Character:9589 - Tried to set unregistered access level 200 to character Odin. Setting access level without privileges!
+20:34:25,166  INFO AutoSaveManager:162 - [AutoSaveManager] ConnectionCheckTask, players connections checked.
+20:34:25,170  INFO AutoSaveManager:198 - [AutoSaveManager] AutoCleanDBTask, 0 entries cleaned from db.
+20:34:25,203  INFO AutoSaveManager:115 - [AutoSaveManager] AutoSaveTask, 1 players data saved.
+20:41:03,006  WARN L2Character:9565 - Admin Login at 20:41. Odin logs in game with AccessLevel 1.

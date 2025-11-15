@@ -902,3 +902,34 @@ java.sql.SQLException: Access denied for user 'rootRomeo'@'localhost' (using pas
 	at com.l2jfrozen.gameserver.datatables.GameServerTable.<init>(GameServerTable.java:96)
 	at com.l2jfrozen.gameserver.datatables.GameServerTable.load(GameServerTable.java:80)
 	at com.l2jfrozen.gsregistering.GameServerRegister.main(GameServerRegister.java:53)
+17:19:12,295  INFO Util:141 - ======================================================================-[ Team ]
+17:19:12,302  INFO L2Frozen:35 -                                                                             
+17:19:12,302  INFO L2Frozen:36 -          #     #####          ##### ##### ##### ##### ##### ##    #         
+17:19:12,302  INFO L2Frozen:37 -          #         #          #     #   # #   #     # #     # #   #         
+17:19:12,302  INFO L2Frozen:38 -          #      ###    ####   ###   #   # #   #   #   ###   #  #  #         
+17:19:12,302  INFO L2Frozen:39 -          #     #              #     ###   #   # #     #     #   # #         
+17:19:12,302  INFO L2Frozen:40 -          ##### #####          #     #  ## ##### ##### ##### #    ##         
+17:19:12,302  INFO L2Frozen:41 -                                                                             
+17:19:12,355  INFO Util:141 - ==================================================================-[ Database ]
+17:19:12,400  INFO MLog:80 - MLog clients using log4j logging.
+17:19:13,241  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+17:19:13,662  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 0, acquireRetryDelay -> 500, autoCommitOnClose -> true, automaticTestTable -> connection_test_table, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13hbe10t5se2gtyzun|77556fd, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13hbe10t5se2gtyzun|77556fd, idleConnectionTestPeriod -> 3600, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://localhost/l2jdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 100, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+17:19:13,713  INFO Util:141 - ===========================================================-[ LoginController ]
+17:19:14,410  INFO LoginController:163 - Cached 10 KeyPairs for RSA communication
+17:19:16,940  INFO LoginController:217 - Stored 20 keys for Blowfish communication
+17:19:16,962  INFO GameServerTable:94 - Loaded 127 server names
+17:19:16,980  INFO GameServerTable:97 - Loaded 0 registered Game Servers
+17:19:17,212  INFO GameServerTable:100 - Cached 10 RSA keys for Game Server communication.
+17:19:17,320  INFO L2LoginServer:217 - Listening for GameServers on 127.0.0.1:9014
+17:19:17,330  INFO L2LoginServer:229 - Login Server ready on *:2106
+17:19:17,330  INFO Config:4457 - Loaded 2 IP Bans.
+17:20:06,629  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+17:20:06,629  INFO GameServerThread:665 - InternalIP: 127.0.0.1
+17:20:06,629  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
+17:24:32,037  INFO LoginController:712 - Created new account : romeo456 on IP : 127.0.0.1
+17:49:59,185  INFO LoginController:712 - Created new account : romeoadmin on IP : 127.0.0.1
+20:28:16,570  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:28:16,820  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+20:30:47,401  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+20:41:47,277  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+20:41:47,279  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected

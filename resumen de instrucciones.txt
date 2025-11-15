@@ -35,4 +35,15 @@ recorda los puertos para abrir son
 LoginserverPort = 2106
 para que se conecte el cliente port 7777
 
-en firewall del server y de windows
+en firewall del server y de Windows
+
+
+PARA hacer un GM con todos los poderes entrar a las tablas 
+accounts y carácter y darle 1 a la cuenta del gm y 1 al acces level del char con eso tenes un gm
+
+ver los accesos con sus roles en la tabla acces_level
+
+comandos básicos de gm //admin //gmshop
+
+modificar con el l2 file edit el archivo del system el nameserver-dat algo si para poner los nombres de los servers y el l2 que aparece sin extensión para poner la ip publica del server
+37.27.85.113 esa fue del primer nostalgia
