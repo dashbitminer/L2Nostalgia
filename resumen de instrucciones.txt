@@ -47,3 +47,17 @@ comandos básicos de gm //admin //gmshop
 
 modificar con el l2 file edit el archivo del system el nameserver-dat algo si para poner los nombres de los servers y el l2 que aparece sin extensión para poner la ip publica del server
 37.27.85.113 esa fue del primer nostalgia
+
+
+id de cupones shadow weapon
+D 8869
+C 8870
+AA 5575
+B
+A
+
+ids npc
+
+Roy the cat para cambio de profesión level 20/40/76 id 31228
+GMSHOP 53
+
