@@ -13,3 +13,4 @@
 [25.11.14 17:25:34] '---': Created new character : Vanst for account: romeo456
 [25.11.14 17:50:22] '---': Created new character : Odin for account: romeoadmin
 [25.11.14 21:19:31] '---': Created new character : Aldren for account: romeo456
+[25.11.14 22:34:34] '---': Created new character : Alny for account: romeo456

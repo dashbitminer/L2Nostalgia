@@ -959,3 +959,30 @@ java.sql.SQLException: Access denied for user 'rootRomeo'@'localhost' (using pas
 21:12:42,721  INFO GameServerThread:670 - ExternalIP: 127.0.0.1
 22:29:31,214  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
 22:29:31,278  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+22:31:31,963  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+23:13:48,471  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+23:13:48,486  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+23:14:27,910  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+23:25:22,711  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+23:25:22,712  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+23:26:23,625  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+23:30:50,513  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+23:30:50,515  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+23:31:27,413  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:34:33,199  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:34:33,220  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:35:14,467  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:38:03,659  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:38:03,662  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:38:41,906  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:39:46,641  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:39:46,643  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:43:48,324  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+00:44:16,105  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+00:44:16,106  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+00:58:26,569  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+01:01:37,606  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+01:01:37,608  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
+01:02:11,209  INFO GameServerThread:661 - Updated Gameserver [1] Extreme IP's:
+02:04:49,449  INFO GameServerThread:132 - LoginServerThread: Login terminated the connection.
+02:04:49,467  INFO GameServerThread:216 - Server [1] Extreme is now set as disconnected
